@@ -1,0 +1,9 @@
+yum install gcc pthread
+gcc amp.c -pthread -o 50x
+gcc arme.c -std=gnu99 -pthread -o arme
+gcc ghp.c -pthread -o ghp
+gcc essyn.c -std=gnu99 -pthread -o essyn
+gcc rudy.c -pthread -o rudy
+gcc slow.c -pthread -o slow
+gcc tcp.c -pthread -o tcp
+gcc lag.c -pthread -o udplag

@@ -1,0 +1,19 @@
+**Note: If you want to use the default scripts,
+enter DEFAULT in both the install command and the attack scripts link**
+
+
+(1) First of all you will have to modify the setup file, which can be found in the same directory.
+
+(2) Open it in notepad++ and look at the example line i have left behind, modify it for your scripts.
+
+(3) Just press control+S and save it the way it was.
+
+(4) Create a .tar archive with all your attack scripts and your setup file.
+
+(5) Upload it to a direct download provider, ge.tt for instance.
+
+(6) Go to the API control panel and modify the install command.
+
+(7) All that you will have to change is the tar archive name and the link it will download.
+
+(8) And you are all done!

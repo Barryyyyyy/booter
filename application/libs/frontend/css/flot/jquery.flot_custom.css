@@ -1,0 +1,52 @@
+
+/************************
+	CUSTOM FLOT
+*************************/
+
+.flot, .flot-pie {
+	width: 98%;
+	height: 300px;
+	margin: 10px 0;
+	height: 200px;
+}
+
+.flot-pie {
+	width: 96%;
+	margin-left: 5px;
+	padding: 20px;	
+	height: 200px;
+}
+
+.flot-int { height: 200px; margin: 15px 0 0 0; z-index: 90; width: 99%; }
+
+.flot-int .legend div { background: none!important; } 
+
+.flot-int .legend table { top: -20px!important; } 
+
+.flot-int .legend table tbody td { border: none; padding: 0 2px; }
+
+.flot-int .legend table tbody tr { border: none; padding: 0; }
+
+.legendLabel { padding-right: 10px!important; } 
+
+.legend .legendColorBox > div > div {
+	width: 20px!important;
+	border-width: 2px!important;
+}
+
+#tooltip {              
+	border-radius: 2px;
+	-webkit-border-radius: 2px;
+	-moz-border-radius: 2px;
+	color: #fff;
+	font-size: 11px;
+	padding: 3px 8px;
+	background: #3b3b3b;
+	background: -moz-linear-gradient(top,  #3b3b3b 0%, #1d1d1d 100%);
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#3b3b3b), color-stop(100%,#1d1d1d));
+	background: -webkit-linear-gradient(top,  #3b3b3b 0%,#1d1d1d 100%);
+	background: -o-linear-gradient(top,  #3b3b3b 0%,#1d1d1d 100%);
+	background: -ms-linear-gradient(top,  #3b3b3b 0%,#1d1d1d 100%);
+	background: linear-gradient(top,  #3b3b3b 0%,#1d1d1d 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#3b3b3b', endColorstr='#1d1d1d',GradientType=0 );
+}
