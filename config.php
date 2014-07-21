@@ -9,6 +9,6 @@ Config::Write('DBNAME', 'stress');
 
 Config::Write('SITENAME', 'zk Stresser');
 Config::Write('DENYMSG', 'Kindly fuck off or you will be swatted');
-Config::Write('BASEURL', $_SERVER['SERVER_NAME']. '/Api'); //make sure to add your directory here, if you are in a directory!
+Config::Write('BASEURL', $_SERVER['SERVER_NAME']. '/booter'); //make sure to add your directory here, if you are in a directory!
 Config::Write('MAIN_ACCOUNT', 'Sh1eld');
 ?>
